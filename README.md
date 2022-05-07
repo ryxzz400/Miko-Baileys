@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/ryxzz400/Miko-baileys/main/media/Miko.jpg" alt="MIKO BOT" width="128" height="128"/>
+<img src="https://github.com/ryxzz400/Miko-Baileys/blob/main/media/Miko.jpg" width="478" height="478" alt="Anime Pout GIF - Anime Pout Hmph GIFs" style="max-width: 478px; background-color: rgb(63, 63, 63);">
 </p>
 <p align="center">
 <a href="#"><img title="MIKO BOT" src="https://img.shields.io/badge/MIKO BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
@@ -26,6 +26,9 @@
 ---
 
 
+# Note.
+- Jika ada error/request fitur bisa whatsapp [nomor author](https://wa.me/6281392373062)
+- Versi multi-device sedang dalam tahap pengembangan
 
 # Requirements
 * [Node.js](https://nodejs.org/en/)
@@ -56,7 +59,7 @@ node main
 
 ## For VPS
 ```bash
-apt install nodejs git ffmpeg libwebp imagemagick
+apt install nodejs git ffmpeg libwebp-dev imagemagick
 git clone https://github.com/ryxzz400/Miko-baileys.git
 cd Miko-baileys
 npm install
@@ -72,44 +75,11 @@ node main
 - You can edit list menu on [this section](https://github.com/ryxzz400/Miko-baileys/blob/2ab63213e1b52305945c97a12bdec77fbe19c505/message/help.js#L7)
 - You can add fiture on [this section](https://github.com/ryxzz400/Miko-baileys/blob/main/message/miko.js)
 
-
-## Installing the FFmpeg for Windows
-* Unduh salah satu versi FFmpeg yang tersedia dengan mengklik [di sini](https://www.gyan.dev/ffmpeg/builds/).
-* Extract file ke `C:\` path.
-* Ganti nama folder yang telah di-extract menjadi `ffmpeg`.
-* Run Command Prompt as Administrator.
-* Jalankan perintah berikut::
-```cmd
-> setx /m PATH "C:\ffmpeg\bin;%PATH%"
-```
-Jika berhasil, akan memberikanmu pesan seperti: `SUCCESS: specified value was saved`.
-* Sekarang setelah Anda menginstal FFmpeg, verifikasi bahwa itu berhasil dengan menjalankan perintah ini untuk melihat versi:
-```cmd
-> ffmpeg -version
-```
-
-
-## Installing the libwebp for Windows
-* Unduh salah satu versi libwebp yang tersedia dengan mengklik [di sini](https://developers.google.com/speed/webp/download).
-* Extract file ke `C:\` path.
-* Ganti nama folder yang telah di-extract menjadi `libwebp`.
-* Run Command Prompt as Administrator.
-* Jalankan perintah berikut::
-```cmd
-setx /m PATH "C:\libwebp\bin;%PATH%"
-```
-Jika berhasil, akan memberikanmu pesan seperti: `SUCCESS: specified value was saved`.
-* Sekarang setelah Anda menginstal libwebp, verifikasi bahwa itu berhasil dengan menjalankan perintah ini untuk melihat versi:
-```cmd
-webpmux -version
-```
-
 # Features
 - Cek [disini](https://github.com/ryxzz400/Miko-baileys/blob/main/message/help.js)
 
-# Thanks to
+# Thanks to Sesepuh
 * [`Baileys`](https://github.com/adiwajshing/Baileys)
-* [`Xinz-Team`](https://github.com/Xinz-Team)
 * [`Nurutomo`](https://github.com/Nurutomo)
 * [`MhankBarBar`](https://github.com/MhankBarBar)
 * [`MRHRTZ`](https://github.com/MRHRTZ)
@@ -117,4 +87,5 @@ webpmux -version
 * [`SlavyanDesu`](https://github.com/SlavyanDesu)
 * [`VideFrelan`](https://github.com/VideFrelan)
 * [`TobyG74`](https://github.com/TobyG74)
+* [`Xinz-Team`](https://github.com/Xinz-Team)
 * [`ryxzz400`](https://github.com/ryxzz400)
