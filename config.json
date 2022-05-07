@@ -1,0 +1,22 @@
+{
+    "ownerNumber": "6281392373062@s.whatsapp.net",
+    "ownerName": "Rafi",
+    "limitCount": 30,
+    "gamewaktu": 60,
+    "botName": "Miko Bot",
+    "pathImg": "./media/Itsuki.jpg",
+    "sessionName": "miko",
+    "txtSewa": "1 GRUP + PREMIUM / 30 HARI\n\nVIA:\n*PULSA TELKOMSEL*\n-Rp. 20.000\n*GOPAY*\n-Rp. 15.000\n\nKegunaan Premium:\n- *Limit Tanpa Batas*\n- *Akses Fitur Premium*\n- *Akses Menambahkan Bot Ke Grup WhatsAppMu*\n\nInfo lebih lanjut hub: wa.me/6281392373062",
+    "txtDonasi": "GOPAY : *081392373062*\nPULSA : *081392373062*\n\nLets donate so that the owner is more enthusiastic about developing bots 😁",
+    "gcount": {
+        "prem": 50,
+        "user": 25
+    },
+    "emote":{
+        "free": "◽",
+        "owner": "◾",
+        "limit": "🔸",
+        "glimit": "🔹",
+        "prem": "💰"
+    }
+}
