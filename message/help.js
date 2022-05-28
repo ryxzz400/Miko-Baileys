@@ -4,12 +4,12 @@ exports.menu = (ucapan, pushname) => {
 Untuk mengetahui daftar menu bot
 Tekan *button* dibawah untuk melihat menu`
 }
-exports.newMenu = (ucapan, ownerName, botName, prefix, mode, pendaftar, runtime, ramadhan, pushname, isOwner, isPremium, sisalimit, limitCount, sisaGlimit, gcount, expiredPrem, tanggal, jam, emote) => {
+exports.newMenu = (ucapan, ownerName, botName, multi, prefix, mode, pendaftar, runtime, ramadhan, pushname, isOwner, isPremium, sisalimit, limitCount, sisaGlimit, gcount, expiredPrem, tanggal, jam, emote) => {
     return `*${ucapan} ${pushname}*
 ┌──⭓ *${botName.toUpperCase()}*
 │⭔ *Creator : ${ownerName}*
 │⭔ *Lib : Baileys V.3.5.3*
-│⭔ *Prefix : 「 ${prefix} 」*
+│⭔ *Prefix : 「 ${multi ? 'Multi-Prefix' : prefix} 」*
 │⭔ *Mode : ${mode}*
 │⭔ *Total Pengguna : ${pendaftar.length}*
 │⭔ *Tanggal : ${tanggal}*
@@ -41,6 +41,7 @@ exports.newMenu = (ucapan, ownerName, botName, prefix, mode, pendaftar, runtime,
 │⭔ *${prefix}sticker* ${emote.limit}
 │⭔ *${prefix}toimg* ${emote.limit}
 │⭔ *${prefix}smoji* ${emote.limit}
+│⭔ *${prefix}emojimix* ${emote.limit}
 │⭔ *${prefix}stcmeme* ${emote.limit}
 │⭔ *${prefix}pet* ${emote.limit}
 │⭔ *${prefix}stcsearch* ${emote.limit}
@@ -105,7 +106,6 @@ exports.newMenu = (ucapan, ownerName, botName, prefix, mode, pendaftar, runtime,
 
 ┌──⭓ *SEARCHING MENU* 
 │⭔ *${prefix}artinama* ${emote.limit}
-│⭔ *${prefix}shio* ${emote.limit}
 │⭔ *${prefix}pinterest* ${emote.limit}
 │⭔ *${prefix}lirik* ${emote.limit}
 │⭔ *${prefix}ytsearch* ${emote.limit}
